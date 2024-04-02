@@ -16,6 +16,9 @@ module.exports = {
         '2xl': '1400px',
       },
     },
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+    },
     extend: {
       colors: {
         border: 'hsl(var(--border))',
@@ -51,6 +54,10 @@ module.exports = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+        vermelhoTaborda: '#d31c24',
+        verdeTaborda: '#128d44',
+        marromTaborda: '#7d3727',
+        rosaTaborda: '#ec8c94',
       },
       borderRadius: {
         lg: 'var(--radius)',
