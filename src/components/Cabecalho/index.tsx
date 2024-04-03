@@ -6,19 +6,19 @@ const Cabecalho = () => {
     <header>
       <div className="flex justify-around p-6 bg-verdeTaborda">
         <img
-          className="w-48 rounded-sm shadow-lg"
+          className="w-48 rounded-lg shadow-lg"
           src="/images/logoTaborda.jpeg"
           alt="Logo do Mercado"
         />
         <nav className="flex items-center gap-4">
           <ul className="flex items-center gap-4">
-            <li className="p-2 bg-white rounded-md hover:bg-vermelhoTaborda hover:text-white font-poppins font-medium cursor-pointer duration-75">
+            <li className="p-2 px-3 bg-white rounded-md hover:bg-vermelhoTaborda hover:text-white font-poppins font-medium cursor-pointer duration-75">
               Ofertas da semana
             </li>
-            <li className="p-2 bg-white rounded-md hover:bg-vermelhoTaborda hover:text-white font-poppins font-medium cursor-pointer duration-75">
+            <li className="p-2 px-3 bg-white rounded-md hover:bg-vermelhoTaborda hover:text-white font-poppins font-medium cursor-pointer duration-75">
               Nossa Historia
             </li>
-            <li className="p-2 bg-white rounded-md hover:bg-vermelhoTaborda hover:text-white font-poppins font-medium cursor-pointer duration-75">
+            <li className="p-2 px-3 bg-white rounded-md hover:bg-vermelhoTaborda hover:text-white font-poppins font-medium cursor-pointer duration-75">
               Contato
             </li>
           </ul>
