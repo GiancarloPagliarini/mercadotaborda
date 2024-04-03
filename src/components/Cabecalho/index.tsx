@@ -12,17 +12,20 @@ const Cabecalho = () => {
         />
         <nav className="flex items-center gap-4">
           <ul className="flex items-center gap-4">
-            <li className="p-2 px-3 bg-white rounded-md hover:bg-vermelhoTaborda hover:text-white font-poppins font-medium cursor-pointer duration-75">
+            <li className="py-1 px-2 rounded-md hover:bg-vermelhoTaborda text-white font-poppins font-medium cursor-pointer duration-75">
+              Início
+            </li>
+            <li className="py-1 px-2 rounded-md hover:bg-vermelhoTaborda text-white font-poppins font-medium cursor-pointer duration-75">
               Ofertas da semana
             </li>
-            <li className="p-2 px-3 bg-white rounded-md hover:bg-vermelhoTaborda hover:text-white font-poppins font-medium cursor-pointer duration-75">
+            <li className="py-1 px-2 rounded-md hover:bg-vermelhoTaborda text-white font-poppins font-medium cursor-pointer duration-75">
               Nossa Historia
             </li>
-            <li className="p-2 px-3 bg-white rounded-md hover:bg-vermelhoTaborda hover:text-white font-poppins font-medium cursor-pointer duration-75">
+            <li className="py-1 px-2 rounded-md hover:bg-vermelhoTaborda text-white font-poppins font-medium cursor-pointer duration-75">
               Contato
             </li>
           </ul>
-          <div className="w-0.5 h-1/2 bg-white"></div>
+          <div className="w-0.5 h-1/2 bg-white rounded"></div>
           <ul className="flex gap-4">
             <li>
               <RiInstagramLine className="text-3xl text-white cursor-pointer hover:text-vermelhoTaborda duration-100" />

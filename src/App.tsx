@@ -10,10 +10,10 @@ function App() {
     <div>
       <Cabecalho />
       <CarouselImages />
-      <div className="flex flex-col gap-32 pt-52 mb-32">
+      <div className="bg-slate-100">
         <GrupoOfertas />
-        <SocialMedia />
         <CampanhaPix />
+        <SocialMedia />
       </div>
       <FooterCards />
     </div>
