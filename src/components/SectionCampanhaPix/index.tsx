@@ -9,13 +9,6 @@ const CampanhaPix = () => {
             </p>
             <div className="w-full h-0.5 bg-zinc-300 ml-6"></div>
           </div>
-          {/* <a
-            className="bg-verdeTaborda text-white text-lg text-center p-2 rounded-md w-1/5 mt-3"
-            href=""
-            target="_blank"
-          >
-            Participar
-          </a> */}
         </div>
         <div className="flex justify-between">
           <img
@@ -24,8 +17,8 @@ const CampanhaPix = () => {
             alt=""
           />
           <img
-            className="rounded-lg h-full"
-            src="../images/ImageSection 3.png"
+            className="rounded-lg h-[460px]"
+            src="../images/pix.jpeg"
             alt=""
           />
           <img
@@ -34,6 +27,17 @@ const CampanhaPix = () => {
             alt=""
           />
         </div>
+      </div>
+      <div className="flex items-center justify-center">
+        <div className="h-0.5 bg-zinc-300 ml-6"></div>
+        <a
+          className="bg-verdeTaborda text-white text-lg text-center p-2 rounded-md w-1/5 mt-12"
+          href=""
+          target="_blank"
+        >
+          Como participar?
+        </a>
+        <div className="h-0.5 bg-zinc-300 ml-6"></div>
       </div>
     </div>
   )
