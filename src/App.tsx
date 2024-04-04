@@ -14,8 +14,8 @@ function App() {
         <GrupoOfertas />
         <CampanhaPix />
         <SocialMedia />
-      </div>
       <FooterCards />
+      </div>
     </div>
   )
 }
