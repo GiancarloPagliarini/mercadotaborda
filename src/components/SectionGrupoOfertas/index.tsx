@@ -1,6 +1,6 @@
 const GrupoOfertas = () => {
   return (
-    <div className="container mx-auto px-4 pt-52 mb-32">
+    <div className="">
       <div className="sm:flex items-center justify-between">
         <div className="flex flex-col font-bold text-4xl gap-2">
           <div className="w-1/4 h-0.5 bg-zinc-400"></div>
@@ -23,7 +23,7 @@ const GrupoOfertas = () => {
         </div>
       </div>
       <img
-        className="rounded-lg hidden sm:block sm:mt-28 mt-12 mb-28"
+        className="rounded-lg hidden sm:block sm:mt-28 mt-12"
         src="../images/Banner Horizontal.png"
         alt=""
       />

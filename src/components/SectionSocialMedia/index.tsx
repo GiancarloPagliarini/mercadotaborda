@@ -1,8 +1,15 @@
 const SocialMedia = () => {
   return (
-    <div className="container mx-auto px-4 mb-32">
+    <div>
       <div className="flex items-center justify-between">
-        <div className="flex flex-col font-bold text-4xl gap-2">
+        <div>
+          <img
+            className="rounded-lg"
+            src="../images/ImageSection 2.png"
+            alt=""
+          />
+        </div>
+        <div className="flex flex-col font-bold text-4xl gap-2 items-end">
           <div className="w-1/4 h-0.5 bg-zinc-400"></div>
           Siga nosso perfil no{' '}
           <span className="text-vermelhoTaborda">instagram!</span>
@@ -13,13 +20,6 @@ const SocialMedia = () => {
           >
             Acessar perfil
           </a>
-        </div>
-        <div>
-          <img
-            className="rounded-lg"
-            src="../images/ImageSection 2.png"
-            alt=""
-          />
         </div>
       </div>
     </div>
